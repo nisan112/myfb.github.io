@@ -1,0 +1,438 @@
+body{
+			height: 866px;
+			background-color: gray;
+			font-family: arial;
+		}
+		.topbar{
+			position: fixed;
+			left:0px;
+			right: 0px;
+			top:0px;
+			height: 105px;
+			border-bottom-style: solid;
+			border-color: gray;
+			border-width: 1px;
+			background-color: white;
+			z-index: 20;
+			
+		}
+		.bluetitle{
+			color: blue;
+			font-weight: bold;
+			font-size: 40px;
+		}
+		.search{
+			height: 35px;
+			width: 35px;
+			size: 20px;
+		    border-radius: 20px;
+			
+			}
+			.ham{
+			height: 40px;
+			width: 50px;
+			size: 20px;
+		    border-radius: 20px;
+		    margin-left: 15px;
+		}
+
+			.search-icon-div{
+                    height: 36px;
+					width: 36px;
+					margin-left: 19px;
+					border-radius: 16px;
+					object-fit: cover;
+				}	
+
+			.hamburger-icon{
+					height: 36px;
+					width: 36px;
+					margin-left: 10px;
+					border-radius: 16px;
+					object-fit: cover;
+			}
+				.topline{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.right-side{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			margin-right: 60px;
+		}
+		.bottomline{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.home,.friends,.chat,.video,.groups,.notification{
+			height: 33px;
+			width: 33px;
+			object-fit: cover;
+			margin-top: 10px;
+		}
+		.notification{
+		height: 50px;
+		width: 50px;
+		}
+		.video-box{
+			position: relative;
+		}
+		.number{
+			position: absolute;
+			background-color: red;
+			height: 20px;
+			width: 21px;
+			border-radius: 10px;
+			color: white;
+			font-weight: bold;
+			font-size: 14px;
+			padding-left: 4px;
+			padding-right: 3px;
+			top: 10px;
+			right: -10px;
+			padding-top: 2px;
+
+		}
+		.video{
+			padding-top: 5px;
+		}
+		.second-div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 104px;
+			align-items: center;
+			border-bottom-style: solid;
+			border-color: gray;
+			border-width: 0.15px;
+			height: 62px;
+			background-color: white;
+			width: 1348px;
+			margin-left: -7px;
+		}
+		.photo{
+			height: 44px;
+			width: 44px;
+			object-fit: cover;
+			border-radius: 22px;
+			border-style: solid;
+			border-color: darkgray;
+			border-width: 2px;
+			margin-left: 10px;
+
+
+		}
+		.upload{
+			height: 26px;
+			width: 26px;
+			object-fit: cover;
+			margin-right: 20px;
+		}
+		.space{
+			width: 850px;
+			background-color: rgba(250,230,230,0.5);
+			height: 32px;
+			border: none;
+			border-radius: 16px;
+			padding-left: 30px;
+		
+		}
+		::placeholder{
+			color: black;
+			font-family: arial;
+			margin-left: 20px;
+		}
+		.t{
+			color: gray;
+			font-size: 12px;
+			margin-right: 5px;
+		}
+		.upload-div{
+			margin-right: 25px;
+		}
+		.photo-div{
+			padding-top: 3px;
+		}
+		.third{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			background-color: white;
+			width: 1348px;
+			margin-left: -7px;
+			padding-top: 6px;
+			padding-bottom: 4px;
+			
+		}
+		.smile,.live ,.location{
+             height: 20px;
+             width: 20px;
+             border-radius: 5px;
+             object-fit: cover;
+             vertical-align: text-top;
+
+
+		}
+		.feeling-div{
+			margin-left: 40px;
+		}
+		.location-div{
+			margin-right: 45px;
+		}
+		.fee ,.live-video ,.loca{
+			vertical-align:text-top; 
+			margin-left: 4px;
+
+		}
+		.story-div{
+			display: grid;
+			grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+			column-gap: 71px;
+			background-color: white;
+			width: 1320px;
+			margin-left: -9px;
+			margin-top: 3px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-left: 30px;
+			
+		}
+		.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic10{
+			height: 195px;
+			width: 130px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+		.first-story{
+			position: relative;
+			z-index: 5;
+			border-style: solid;
+			border-color: gray;
+			width: 130px;
+			border-radius: 14px;
+			border-width: 1px;
+		}
+		.add{
+			position: absolute;
+			background-color: white;
+			bottom: 4px;
+			height: 75px;
+			left: 0px;
+			width: 130px;
+			font-family: arial;
+			font-weight: bold;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			
+		}
+		.te{
+			margin-top: 44px;
+			margin-left: 17px;
+		}
+		.plus{
+			position: absolute;
+			bottom: 58px;
+			font-size: 37px;
+			font-family: arial;
+			left:49px;
+			background-color: blue;
+			color: white;
+			border-radius: 18px;
+			height: 33px;
+			width: 30px;
+			object-fit: cover;
+			padding-left: 7px;
+			padding-bottom: 5px;
+			border-style: solid;
+			border-color: white;
+			border-width: 2px;
+			
+		}
+		.pic2-div, .pic3-div, .pic4-div, .pic5-div, .pic6-div, .pic7-div, .pic8-div, .pic10-div{
+			position: relative;
+		}
+		.first2, .first3, .first4, .first5, .first6, .first7, .first8, .first9 {
+			position:absolute;
+			background-color: blue;
+			color: white;
+			top:9px;
+			right: -52px;
+			padding: 6px;
+			border-radius: 5px;
+      		}
+      		.names{
+      			position: absolute;
+      			bottom: 12px;
+      			font-weight: bold;
+      			color:white;
+      			left: 8px;
+      			font-size: 12px;
+
+      		}
+      		.upper-div{
+      		display: grid;
+      		grid-template-columns: 300px 950px 300px;
+      		grid-column-gap: 120px;	
+      		width: 1348px;	
+      		background-color: white;
+      		margin-left: -7px;
+      		align-items: center;
+      		padding-top: 5px;
+      		padding-bottom: 5px;
+      			
+      			
+         		}
+         		.left-side{
+         			position: relative;
+         		width: 70px;
+         		margin-left: 11px;
+         		padding-left: 15px;
+
+         			
+         		}
+         		.middle-side{
+         			margin-left: -310px;
+
+         		}
+      		.pp{
+      			height: 58px;
+      			width: 58px;
+      			object-fit: cover;
+      			border-radius: 29px;
+      			
+      		}
+
+      		
+      		.mpp{
+      			height: 22;
+      			width: 22px;
+      			object-fit: cover;
+      			
+      			border-radius
+      			
+      			: 12px;
+      			border-style: solid;
+      			border-color: white;
+      			border-width: 2px;
+      		}
+      		.mpp-div{
+      			position: absolute;
+      			right: 9px;
+      			bottom: 0px;
+      		}
+      		.pub{
+      			height: 10px;
+      			width: 10px;
+      			object-fit: cover;
+      		}
+      		.middle-low{
+      			display: flex;
+      			flex-direction: row;
+      			justify-content: flex-start;
+
+      		}
+      		.more, .can{
+      			height: 12px;
+      			width: 12px;
+      			object-fit: cover;
+      			padding-left: 16px;
+      		}
+      		.like,.comment, .share{
+      			height: 20px;
+      			width: 20px;
+      			object-fit: cover;
+      		}
+      		.container{
+      			margin-top: 5px;
+      			background-color: white;
+      			width: 1347px;
+      			margin-left: -6px;
+      		}
+      		.middle-up{
+      			font-weight: bold;
+      		}
+      		.right-sec{
+      			display: flex;
+      			flex-direction: row;
+      			justify-content: flex-start;
+      			margin-left: -250px;
+      		}
+      		.aaa{
+      			padding-left: 1px;
+      			color: gray;
+      		}
+      		.post{
+      			width: 1346px;
+      			height: 390px;
+      			object-fit: cover;
+      			margin-left: -2px;
+      		}
+      		.rela{
+      			position:relative;
+      		}
+      		.see-more{
+      			position:absolute;
+      			border-style: solid;
+      			border-color: white;
+      			bottom:150px;
+      			left:600px;
+      			padding:10px 11px;
+      			width: 150px;
+      			color: white;
+      			font-weight: bold;
+      			padding-left: 15px;
+      		}
+      		.lol{
+      			height: 30px;
+      			width: 30px;
+      			object-fit: cover;
+      			vertical-align: bottom;
+      			margin-top: 4px;
+      		}
+      		.ib{
+      			display: inline-block;
+      			color: gray;
+      		}
+      		.reaction-div{
+      			padding: 9px;
+      		}
+      		.num{
+      			display: inline-block;
+      			padding-left: 10px;
+      			      			font-size: 20px;
+      			      				vertical-align: bottom
+      		}
+      		.post-info{
+      			display: flex;
+      			flex-direction: row;
+      			justify-content: space-between;
+      			align-items: center;
+      			height: 40px;
+
+      		}
+      		.like-div, .comment-div, .share-div{
+      			background-color: lightgray;
+      			height: 35px;
+      			width: 75px;
+      			border-radius: 18px;
+      			margin-bottom: 15px;
+      			padding-left: 40px;
+      			padding-top: 12px;
+      			transition: color, background-color 0.15s;
+      			
+      		}
+      		.like-div{
+      			margin-left: 30px;
+      		}
+      		.share-div{
+      			margin-right: 30px;
+      		}
+      		.like-div:active, .comment-div:active, .share-div:active{
+      			background-color: blue;
+      			color:white;
+      		}
+		
